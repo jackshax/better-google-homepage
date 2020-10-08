@@ -5,8 +5,8 @@
     padding: 0;
 }
 
-/* body {
-    
+/*body {
+
 }
 */
 
@@ -15,17 +15,22 @@ nav {
     justify-content: space-between;
     align-items: baseline;
     font-size: 13px;
-    padding: 21px 24px;        
+    padding: 23px 25px;        
 }
 
 footer {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    font-size: 15px;
-    padding: 21px 24px;
+    font-size: 14px;
+    padding: 12px 30px;
     background: #EEEEEE;
     color: #CCCCCC;
+    border-top: 1px solid #dddddd;
 }
 
 .center {
@@ -39,27 +44,47 @@ footer {
 .logo {
     max-width: 100%;
     height: auto;
-    margin-top: 99px;
+    margin-top: 95px;
 }
 
 /* Search Bar Settings */
 
-
+.search-bar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 27px;
+    width: 584px;
+    height: 46px;
+    font-size: 17px;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 24px;
+    background: white;
+}
 
 /* Button Settings */
 
+.search-buttons {
+    display: flex;
+    justify-content: center;
+    flex: 0 0 0;
+    margin-top: 26px;
+}
+
 button {
-    height: 40px;
-    width: 140px;
+    margin: 1px 6px;
+    height: 35px;
+    width: 135px;
     color: grey;
     font-size: 14px;
     border: 0px;
     border-radius: 5px;
     background: #ebebeb;
+
 }
 button:hover {
     color: black;
-    margin: 0px;
+
     border: 1px solid #CCCCCC;
     background: #f0f0f0;
     cursor: pointer;
