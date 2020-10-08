@@ -1,2 +1,4 @@
 # better-google-homepage
-The first attempt was a mess so I'm doing it all over. This one will be better I promise
+This project is a recreation of Google's homepage using HTML and CSS, while also using VS Code and Git to edit and upload.
+
+This was my second attempt after my first attempt had gotten far too convoluted for myself to understand.
