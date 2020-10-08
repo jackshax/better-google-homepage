@@ -60,6 +60,28 @@ footer {
     border: 1px solid rgb(212, 212, 212);
     border-radius: 24px;
     background: white;
+    color: rgb(27, 27, 27);
+    padding: 0px 47px;
+}
+
+.search-wrapper {
+    position: relative;
+    display: flex;
+}
+
+.search-icon i {
+    position: absolute;
+}
+
+.search-icon {
+    margin-bottom: 10px;
+    width: 14px;
+    height: 14px;
+}
+
+.icon {
+    padding: 10px;
+    text-align: left;
 }
 
 /* Button Settings */
