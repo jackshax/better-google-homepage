@@ -15,7 +15,8 @@ nav {
     justify-content: space-between;
     align-items: baseline;
     font-size: 13px;
-    padding: 23px 25px; 
+    padding: 23px 25px;
+    word-spacing: 11px;
 }
 
 footer {
@@ -28,6 +29,7 @@ footer {
     align-items: baseline;
     font-size: 14px;
     padding: 12px 30px;
+    word-spacing: 23px;
     background: #EEEEEE;
     color: #CCCCCC;
     border-top: 1px solid #dddddd;
@@ -38,6 +40,11 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
+
+a:link {
+    color: #555555;
+    text-decoration: none;
+  }
 
 /* Logo Settings */
 
@@ -90,18 +97,18 @@ footer {
     display: flex;
     justify-content: center;
     flex: 0 0 0;
-    margin-top: 26px;
+    margin-top: 28px;
 }
 
 button {
     margin: 1px 6px;
     height: 35px;
-    width: 135px;
+    width: 132px;
     color: grey;
     font-size: 14px;
     border: 0px;
     border-radius: 5px;
-    background: #ebebeb;
+    background: #eeeded;
 
 }
 button:hover {
