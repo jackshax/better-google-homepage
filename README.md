@@ -1,2 +1,2 @@
 # better-google-homepage
-This one's going to be better I promise
+The first attempt was a mess so I'm doing it all over. This one will be better I promise
