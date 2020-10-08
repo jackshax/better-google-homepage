@@ -25,6 +25,7 @@ footer {
     font-size: 15px;
     padding: 21px 24px;
     background: #EEEEEE;
+    color: #CCCCCC;
 }
 
 .center {
@@ -33,7 +34,32 @@ footer {
     margin-right: auto;
 }
 
+/* Logo Settings */
+
 .logo {
     max-width: 100%;
     height: auto;
+}
+
+/* Search Bar Settings */
+
+
+
+/* Button Settings */
+
+button {
+    height: 40px;
+    width: 140px;
+    color: grey;
+    font-size: 14px;
+    border: 0px;
+    border-radius: 5px;
+    background: #ebebeb;
+}
+button:hover {
+    color: black;
+    margin: 0px;
+    border: 1px solid #CCCCCC;
+    background: #f0f0f0;
+    cursor: pointer;
 }
