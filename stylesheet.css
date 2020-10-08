@@ -18,6 +18,15 @@ nav {
     padding: 21px 24px;        
 }
 
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 15px;
+    padding: 21px 24px;
+    background: #EEEEEE;
+}
+
 .center {
     display: block;
     margin-left: auto;
